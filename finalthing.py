@@ -53,7 +53,6 @@ if yn == "yes":
 else:
     information("You're lucky you don't have a runny nose, because it's really annoying.")
     allergies-=1
-    nothing+=1
 
 yn = question("Are you feeling unusually tired?\n")
 if yn == "yes":

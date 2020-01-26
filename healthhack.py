@@ -17,7 +17,7 @@ def continues():
     global cont
     cont = True
 def question(string):
-    global yesf,nof,y,n,c,contf,done
+    global yesf,nof,y,n,c,contf,done,decision
     done = False
     decision = 'unpressed'
     try:
@@ -98,5 +98,3 @@ def iq(iorq,string):
         information(string)
     else:
         question(string)
-information('Hi')
-print(question('Hi?'))
