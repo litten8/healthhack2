@@ -38,8 +38,8 @@ def question(string):
     nof = Frame(master, height = 100, width = 100)
     nof.pack_propagate(0)
     nof.pack()
-    yesf.place(x=0,y=100)
-    nof.place(x=200,y=100)
+    yesf.place(x=0,y=200)
+    nof.place(x=500,y=200)
     y = Button(yesf, text = "Yes", command = yes)
     n = Button(nof, text = "No", command = no)
     y.pack(fill="both",expand=1)
@@ -77,10 +77,10 @@ def information(string):
     return(True)
         
 master = Tk()
-master.geometry("300x200")
+master.geometry("600x300")
 master.resizable(0,0)
 
-textf = Frame(master,height = 100, width = 300)
+textf = Frame(master,height = 200, width = 600)
 textf.pack_propagate(0)
 textf.pack()
 text = Text(textf)
